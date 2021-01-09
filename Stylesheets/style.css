@@ -36,35 +36,72 @@ body {
   justify-content: center;
 }
 
-.box {
-  height: 300px;
-  width: 300px;
-  background-color: #5c6bc0;
-  color: white;
-  font-size: 30px;
+@media only screen and (min-width: 1080px) {
+  .box {
+    height: 300px;
+    width: 300px;
+    background-color: #5c6bc0;
+    color: white;
+    font-size: 30px;
 
-  margin: 50px;
-  padding: 10px;
-  border: 2px solid lightgray;
-  border-radius: 10px;
-  box-shadow: 10px 10px 10px rgba(197 174 145 0.5);
+    margin: 50px;
+    padding: 10px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(197 174 145 0.5);
+  }
+
+  .color-shift-button {
+    width: 100px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    background-color: #f9f5ec;
+  }
+
+  .textbox {
+    width: 500px;
+    height: 200px;
+    margin: 15px;
+    padding: 15px;
+    border-bottom: 3px solid gray;
+    border-radius: 10px;
+  }
 }
 
-.color-shift-button {
-  width: 100px;
-  height: 30px;
-  margin: 0;
-  padding: 0;
-  border: 2px solid lightgray;
-  border-radius: 10px;
-  background-color: #f9f5ec;
-}
+@media only screen and (max-width: 1080px) {
+  .box {
+    height: 200px;
+    width: 200px;
+    background-color: #5c6bc0;
+    color: white;
+    font-size: 30px;
 
-.textbox {
-  width: 500px;
-  height: 200px;
-  margin: 15px;
-  padding: 15px;
-  border-bottom: 3px solid gray;
-  border-radius: 10px;
+    margin: 33px;
+    padding: 6px;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    box-shadow: 6px 6px 6px rgba(197 174 145 0.5);
+  }
+
+  .color-shift-button {
+    width: 66px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    background-color: #f9f5ec;
+  }
+
+  .textbox {
+    width: 300px;
+    height: 80px;
+    margin: 6px;
+    padding: 6px;
+    border-bottom: 2px solid gray;
+    border-radius: 6px;
+  }
 }
