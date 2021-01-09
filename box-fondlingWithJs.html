@@ -9,17 +9,25 @@
   <body>
     <div class="matrix">
       <div class="boxes">
-        <div class="box">11</div>
-        <div class="box">12</div>
+        <div class="box"><p class="copyhere">11</p></div>
+        <div class="box"><p class="copyhere">21</p></div>
       </div>
+
       <div class="boxes">
-        <button type="button" class="color-shift-button">Shift Colors</button>
+        <button class="color-shift-button">Color Shift</button>
+        <textarea
+          class="textbox copyfrom"
+          placeholder="Drop Something plox?"
+        ></textarea>
       </div>
+
       <div class="boxes">
-        <div class="box">21</div>
-        <div class="box">22</div>
+        <div class="box"><p class="copyhere">12</p></div>
+        <div class="box"><p class="copyhere">22</p></div>
       </div>
     </div>
+
     <script src="./Scripts/!!-EventListener-click.js"></script>
+    <script src="./Scripts/!!-EventListener-keyup.js"></script>
   </body>
 </html>
