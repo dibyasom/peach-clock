@@ -36,6 +36,5 @@ state = false;
 
 colorShiftButton.addEventListener("click", function () {
   state = !state;
-  console.log(state);
   colorShift(state, boxes, materialColors, colorShiftButton, body);
 });
