@@ -5,14 +5,14 @@ function colorShift(state, boxes, materialColors, colorShiftButton, body) {
     btColor = "black";
     btText = "white";
     bodyBg = "#051821";
-    shadowColor = "rgba(199 234 70 0.5)";
+    shadowColor = "rgba(199, 234, 70, 0.3)";
     pColor = "#1a4645";
   } else {
     btColor = " #f9f5ec";
     btText = "black";
     bodyBg = "#f9f5ec";
     materialColors = ["#5c6bc0", "#5c6bc0", "#5c6bc0", "#5c6bc0"];
-    shadowColor = "rgba(197 174 145 0.5)";
+    shadowColor = "rgba(197, 174, 145, 0.8)";
     pColor = "white";
   }
 
