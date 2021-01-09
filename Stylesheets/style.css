@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+/* .matrix {
+  display: flex;
+  flex-direction: row;
+} */
+
+.box {
+  height: 300px;
+  width: 300px;
+  background-color: #5c6bc0;
+  color: white;
+  font-size: 100px;
+  align-self: center;
+
+  margin: 50px;
+  padding: 0;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(150, 150, 150, 0.5);
+}
+
+/* .box:nth-child(2) {
+  background-color: #ff5733;
+}
+
+.boxes {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-self: center;
+} */
