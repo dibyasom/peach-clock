@@ -315,9 +315,9 @@ body {
 
   .box-dd > .timestamp {
     position: relative;
-    top: 75%;
-    left: 2%;
-    font-size: 6em;
+    top: 100%;
+    right: 2%;
+    font-size: 250px;
     display: table-cell;
     vertical-align: center;
     text-align: left;
@@ -330,8 +330,8 @@ body {
   .clock {
     margin: 0 1% 0 0;
     background: #f68657;
-    width: 50vmin;
-    height: 50vmin;
+    width: 70vmin;
+    height: 70vmin;
     border-radius: 50%;
     position: relative;
     top: 10%;
