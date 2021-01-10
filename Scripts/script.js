@@ -17,7 +17,7 @@ function setTime(daysBox, hrBox, minBox, secBox) {
   secBox.innerText = `${seconds}`;
   document.getElementById("second").style.transform =
     "rotate(" + (359 - secondStroke) + "deg)";
-  console.log(screen.width);
+  // console.log(screen.width);
 }
 
 const countDownDate = new Date("Jan 31, 2021 00:00:00").getTime();
