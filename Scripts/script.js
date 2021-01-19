@@ -20,7 +20,7 @@ function setTime(daysBox, hrBox, minBox, secBox) {
   // console.log(screen.width);
 }
 
-const countDownDate = new Date("Jan 15, 2021 00:00:00").getTime();
+const countDownDate = new Date("Jan 26, 2021 00:00:00").getTime();
 daysBox = document.querySelector(".box-dd > .timestamp");
 hrBox = document.querySelector(".box-hh > .timestamp");
 minBox = document.querySelector(".box-mm > .timestamp");
